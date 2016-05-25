@@ -1,0 +1,19 @@
+extends base
+
+block content
+   .container
+      h2 Hallo! Wir sind <a>TsnuK</a> und machen T-Shirts mit Hirn und Charme. Unsere drei beliebtesten Modelle:
+      .flex-row
+         a: img(src='images/tshirt.png')
+         a: img(src='images/tshirt-2.png')
+         a: img(src='images/tshirt-3.png')
+      h2 Entdecke dadaistischen Unsinn, nerdige Zahlenspielereien und Illustrationen von Körperflüssigkeiten in unseren Kollektionen:
+      .flex-row
+         - for collection in collections
+            .card
+               a: img(src='#{collection.image}')
+               h3.card-header= collection.name
+               p= collection.description
+         
+
+

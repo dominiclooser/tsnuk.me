@@ -1,0 +1,12 @@
+{
+  "name": "tsnuk",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-yaml": "latest",
+    "jit-grunt": "latest",
+    "matchdep": "latest",
+    "time-grunt": "latest"
+  }
+}
