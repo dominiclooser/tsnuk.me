@@ -1,19 +1,16 @@
-extends base
+extends _base
 
 block content
    .container
-      h2 Hallo! Wir sind <a>TsnuK</a> und machen T-Shirts mit Hirn und Charme. Unsere drei beliebtesten Modelle:
-      .flex-row
-         a: img(src='images/tshirt.png')
-         a: img(src='images/tshirt-2.png')
-         a: img(src='images/tshirt-3.png')
-      h2 Entdecke dadaistischen Unsinn, nerdige Zahlenspielereien und Illustrationen von Körperflüssigkeiten in unseren Kollektionen:
+      p.intro Hallo! Wir machen T-Shirts mit <em>Hirn und Charme</em>. Entdecke <em>dada</em>&shy;istischen Unsinn, <em>nerd</em>ige Zahlen&shy;spielereien und <em>Körper&shy;flüssigkeiten</em>.
       .flex-row
          - for collection in collections
             .card
-               a: img(src='#{collection.image}')
-               h3.card-header= collection.name
-               p= collection.description
+               .card-image
+                  a: img(src='#{collection.image}')
+               .card-header= collection.name
+               p!= collection.description
+               a: em &rarr; zur Kollektion
          
 
 

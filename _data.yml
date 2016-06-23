@@ -2,12 +2,28 @@
 index:
   collections:
     - name: Dominic
-      image: images/dominic.jpg
-      description: Dominics Designs zeichnen sich durch Wortwitz und Ironie aus. Nach dem Studium von Mathematik, Linguistik und Informatik sind seine momentanen Hauptinteressen Design und Impro-Theater
+      image: images/dominic-1.png
+      description: Liebst du das Spiel mit der Sprache, Wortwitz und Ironie? Bist du <em>vielseitig desinteressiert</em> oder <em>minimal geschmacksneutral</em>? Billardspieler, Mathematiker oder philosophisch interessiert?
+      # description: Dominics Designs zeichnen sich durch Wortwitz und Ironie aus. Nach dem Studium von Mathematik, Linguistik und Informatik sind seine momentanen Hauptinteressen Design und Impro-Theater
     - name: Michelle
-      image: images/dominic.jpg
-      description: Dominics Designs zeichnen sich durch Wortwitz und Ironie aus. Nach dem Studium von Mathematik, Linguistik und Informatik sind seine momentanen Hauptinteressen Design und Impro-Theater
+      image: images/michelle-1.png
+      description: "Grüchelle Goes Bisiness: Weil das Leben Körpersaft braucht! T-Shirts, die sich sich mit viel Humor und Überraschungseffekt gegen Tabus stellen. Sei auch ein Teil von Grüchelle Goes Bisiness!"
     - name: Thomas
-      image: images/dominic.jpg
+      image: images/dominic-2.png
       description: Dominics Designs zeichnen sich durch Wortwitz und Ironie aus. Nach dem Studium von Mathematik, Linguistik und Informatik sind seine momentanen Hauptinteressen Design und Impro-Theater
+
+thomas:
+  shopName: tsnuk
+
+dominic:
+  shopName: dominic
+  locale: de_CH
+  prefix: //shop.spreadshirt.ch
+  baseId: myShop
+
+michelle:
+  shopName: bisiness
+  locale: de_CH
+  prefix: //shop.spreadshirt.ch
+  baseId: myShop
 

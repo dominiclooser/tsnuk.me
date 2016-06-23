@@ -7,9 +7,13 @@
         font-weight: normal
 
     nav 
-        // margin-top: unit
-        a:not(:last-child)::after
-            content: ' / '
+        margin-top: 0.5 * unit
+        a
+            margin-right: 5px 
+        a:not(:first-child)
+            margin-left: 5px
+        // a:not(:last-child)::after
+        //     content: ' / '
 
 .card
     padding: 0 0.5 * unit
@@ -18,13 +22,25 @@
     p 
         margin-top: 0
 
-.card-header
-    background: baseColor
-    color: white
-    font-weight: 300
-    text-align: center
 
-h2
-    font-weight: 500
+.card-header
+    font-family: sansFont
+    font-size: xl
+    // text-align: center
+    border-bottom: 2px dotted black
+    border-top: @border-bottom
+    margin: 0.5 * unit 0
+
+.intro
+    font-size: l
+    @media bigScreen
+        font-size: xl
+    em
+        // font-weight: bold
+        font-style: normal
+        // text-transform: uppercase
+        background: color1
+
+
 
          

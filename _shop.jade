@@ -1,0 +1,14 @@
+extends _base
+
+block content
+   #myShop
+
+block scripts
+   script.
+      var spread_shop_config = {
+         shopName: '#{shopName}',
+         locale: '#{locale}',
+         prefix: '#{prefix}',
+         baseId: '#{baseId}'
+      };
+   script(src="//shop.spreadshirt.at/shopfiles/shopclient/shopclient.nocache.js")

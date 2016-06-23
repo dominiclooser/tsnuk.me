@@ -5,6 +5,18 @@ config =
     'gh-pages':
         options:
             base: 'www'
+        src: '**/*'
+
+    copy:
+        main:
+            src: ['images/*']
+            expand: true
+            dest: 'www/'
+        
+    stylus:
+        main:
+            src: 'styles/styles.styl'
+            dest: 'www/styles/styles.css'
     yaml:
         main:
             expand: true
@@ -25,3 +37,4 @@ module.exports = (grunt) ->
     time grunt
     jit grunt
     grunt.registerTask 'default', ['yaml', 'watch']
+    grunt.registerTask 'finish', ['copy', 'stylus']
