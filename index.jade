@@ -2,15 +2,18 @@ extends _base
 
 block content
    .container
-      p.intro Hallo! Wir machen T-Shirts mit <em>Hirn und Charme</em>. Entdecke <em>dada</em>&shy;istischen Unsinn, <em>nerd</em>ige Zahlen&shy;spielereien und <em>Körper&shy;flüssigkeiten</em>.
+      h2.intro Hallo! Wir machen T-Shirts mit <strong>Hirn und Charme</strong>. Entdecke <strong>dada</strong>&shy;istischen Unsinn, <strong>nerd</strong>ige Zahlen&shy;spielereien und <strong>Körper&shy;flüssigkeiten</strong>.
       .flex-row
          - for collection in collections
             .card
                .card-image
-                  a: img(src='#{collection.image}')
-               .card-header= collection.name
-               p!= collection.description
-               a: em &rarr; zur Kollektion
+                  a(href='#{collection.link}')
+                     img(src='#{collection.image}')
+               .card-header 
+                  a(href='#{collection.link}')= collection.name
+               .card-text
+                  p!= collection.description
+                  a(href='#{collection.link}') &rarr; &nbsp; zu #{collection.linkText}
          
 
 

@@ -1,6 +1,6 @@
 {
-  "name": "tsnuk",
-  "version": "0.1.0",
+  "name": "tsnuk.me",
+  "version": "0.2.0",
   "devDependencies": {
     "grunt": "latest",
     "grunt-contrib-watch": "latest",
@@ -9,5 +9,9 @@
     "matchdep": "latest",
     "time-grunt": "latest",
     "grunt-gh-pages": "latest"
+  },
+  "scripts": {
+    "stage": "harp compile; grunt finish; grunt gh-pages",
+    "test": "psi http://dominiclooser.github.io/tsnuk.me"
   }
 }
