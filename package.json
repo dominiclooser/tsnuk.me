@@ -2,13 +2,16 @@
   "name": "tsnuk.me",
   "version": "0.2.0",
   "devDependencies": {
+    "autoprefixer": "^6.3.7",
     "grunt": "latest",
     "grunt-contrib-watch": "latest",
+    "grunt-gh-pages": "latest",
+    "grunt-postcss": "^0.8.0",
     "grunt-yaml": "latest",
+    "harp": "^0.20.3",
     "jit-grunt": "latest",
     "matchdep": "latest",
-    "time-grunt": "latest",
-    "grunt-gh-pages": "latest"
+    "time-grunt": "latest"
   },
   "scripts": {
     "stage": "harp compile; grunt finish; grunt gh-pages",

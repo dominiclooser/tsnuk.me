@@ -5,7 +5,7 @@ block content
       h2.intro Hallo! Wir machen T-Shirts mit <strong>Hirn und Charme</strong>. Entdecke <strong>dada</strong>&shy;istischen Unsinn, <strong>nerd</strong>ige Zahlen&shy;spielereien und <strong>Körper&shy;flüssigkeiten</strong>.
       .flex-row
          - for collection in collections
-            .card
+            .card.flex-item
                .card-image
                   a(href='#{collection.link}')
                      img(src='#{collection.image}')

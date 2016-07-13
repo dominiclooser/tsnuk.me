@@ -11,12 +11,12 @@ index:
       link: michelle
       linkText: Michelles Kollektion
       image: images/michelle-1.png
-      description: "Grüchelle Goes Bisiness: Weil das Leben Körpersaft braucht! T-Shirts, die sich sich mit viel Humor und Überraschungseffekt gegen Tabus stellen. Sei auch ein Teil von Grüchelle Goes Bisiness!"
+      description: 'Grüchelle Goes Bisiness: Weil das Leben Körpersaft braucht! T-Shirts, die sich sich mit viel Humor und Überraschungseffekt gegen Tabus stellen. Sei auch ein Teil von Grüchelle Goes Bisiness!'
     - name: Thomas
       link: thomas
       linkText: Thomas' Kollektion
-      image: images/dominic-2.png
-      description: Dominics Designs zeichnen sich durch Wortwitz und Ironie aus. Nach dem Studium von Mathematik, Linguistik und Informatik sind seine momentanen Hauptinteressen Design und Impro-Theater
+      image: images/thomas.jpg
+      description: 'Computer-Kunst entfesselt: Designs erzeugt durch verrauschte Algorithmen unter menschlicher Aufsicht. Vollständig generativ, systemisch und knallhart pseudo-random!'
 
 thomas:
   shopName: tsnuk
